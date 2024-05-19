@@ -1,8 +1,8 @@
-import Test from "../Test";
 import "./app.scss"
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
+import Technologies from "./components/technologies/Technologies";
 
 const App = () => {
   return <div>
@@ -13,8 +13,10 @@ const App = () => {
     <section id="Services">
       <Parallax/>
     </section>
-    <section>Services</section>
-    <section id="Portfolio">Parallax</section>
+    
+    <section id="Portfolio">
+      <Technologies/>
+    </section>
     <section>Portfolio1</section>
     <section>Portfolio2</section>
     <section>Portfolio3</section>
